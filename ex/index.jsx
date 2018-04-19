@@ -1,5 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Component from './component'
+import SilvaFamily from './silvaFamily'
 
-ReactDOM.render(<Component value='Show!' />, document.getElementById('app'))
+ReactDOM.render(
+<div>
+    <SilvaFamily />
+</div>, 
+document.getElementById('app'))
